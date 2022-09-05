@@ -14,7 +14,7 @@ Some of the examples of binary outcome cases include:
 - The independent variables should be independent of each other. That is, the model should have little or no multicollinearity.
 - The independent variables are linearly related to the log odds.
 ---
-##Steps
+## Steps
 - Importing the necessary scikit-learn library packages.
 - Data cleaning and Exploration.
 - Splitting the data into Independent and Dependent variables.
