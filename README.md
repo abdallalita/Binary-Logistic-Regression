@@ -49,8 +49,8 @@ A decision tree consists of nodes (that test for the value of a certain attribut
 - Changing the categorical code of a character variables to 0 and 1.
 - Splitting the data set into **Train** and **Test** sets with a high percentage of Train set.
 - Fitting the DecisionTreeClassifier model using the **Train** sets.
-- Checking the accuracy of the model and predicting the **Test** set results.
-- Build a Confusion Matrix - Used to determine the perfomance of the algorithm.
+- Predicting the **Test** set results.
+- Evaluate the model performance using metrics such as Accuracy, ROC Curve, Class Prediction Percentages and Class Probability Distribution plot.
 - Visualizing the decision tree
 ---
 ### Description 3
@@ -72,7 +72,7 @@ The decison to precisely classify observations is extremely valuable for various
 - Changing the categorical code of a character variables to 0 and 1.
 - Splitting the data set into **Train** and **Test** sets with a high percentage of Train set.
 - Fitting the RandomForestClassifier model using the **Train** sets.
-- Checking the accuracy of the model and predicting the **Test** set results.
-- Build a Confusion Matrix - Used to determine the perfomance of the algorithm.
+- Predicting the **Test** set results.
+- Evaluate the model performance using metrics such as Accuracy, ROC Curve, Class Prediction Percentages and Class Probability Distribution plot.
 - Visualizing the random Forest
 
