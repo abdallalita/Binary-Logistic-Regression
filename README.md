@@ -7,22 +7,18 @@ A decision tree consists of nodes (that test for the value of a certain attribut
 3. **Random Forest** is supervised machine learning algorithm widely used for both classification and regression problems. It builds different decison trees on different samples and takes their majority votes for classification and average in case of regression.
 The Random Forest leverages the power of multiple decison trees and does not rely on the feature importance given by a single decison tree, hence can generalize over the data in a better way making it more accurate than decison tree.
 More about the two algorithms can be found here: [Website](https://www.analyticsvidhya.com/blog/2020/05/decision-tree-vs-random-forest-algorithm/)
- ## [Binary-Logistic-Regression](overview-1)
- ## [Decision Tree](overview-2)
- ## [Random Forest](overview-3)
-### Overview 1
+ ## Binary-Logistic-Regression
 The data had 683 observations and 11 features, of which one is a binary target variable. I performed data cleaning to remove duplicate observations, data had no missing
-values. I performed Ordinal encoding for each unique category in the target variable.
-
----
-### Overview 2
+values. I performed Ordinal encoding for each unique category in the target variable. Evaluation of the model was based on the Classification report that entails the
+accuracy score, F1 score and the Recall.
+ ## Decision Tree
 Data had 683 observations and 9 columns with no missing values. All duplicates rows were removed. I created a function to find and impute outliers using the
-Interquartile Range (IQR). Evaluations of the model was based on the confusion matrix, ROC Curve and the Class Probability distribution Curve.
-
----
-### Overview 3
-The data had 614 observations and 13 features, of which one is a binary target variable. All missing values were found and imputed using the InterQuartile Range, median.
+Interquartile Range (IQR). Evaluations of the model was based on the confusion matrix, ROC Curve and the Class Probability distribution Curve. 
+ ## Random Forest
+ The data had 614 observations and 13 features, of which one is a binary target variable. All missing values were found and imputed using the InterQuartile Range, median.
 I then performed Ordinal Encoding for each of the unique category in the target variable. Evaluation of the algorithm was based on the confusion matrix, ROC Curve and the Class Probability Distribution Curve.
+
+
 
 
 
