@@ -13,10 +13,12 @@ More about the two algorithms can be found here: [Website](https://www.analytics
 ### Overview 1
 The data had 683 observations and 11 features, of which one is a binary target variable. I performed data cleaning to remove duplicate observations, data had no missing
 values. I performed Ordinal encoding for each unique category in the target variable.
+
 ---
 ### Overview 2
 Data had 683 observations and 9 columns with no missing values. All duplicates rows were removed. I created a function to find and impute outliers using the
 Interquartile Range (IQR). Evaluations of the model was based on the confusion matrix, ROC Curve and the Class Probability distribution Curve.
+
 ---
 ### Overview 3
 The data had 614 observations and 13 features, of which one is a binary target variable. All missing values were found and imputed using the InterQuartile Range, median.
