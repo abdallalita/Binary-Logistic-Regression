@@ -1,16 +1,6 @@
-# Table of Contents
 1. ## Binary-Logistic-Regression
-      * [Description](#description-1)
-      * [Assumptions](#assumptions)
-      * [Steps](#steps-1)
 2. ## Decision Tree
-      *[Description](#description-2)
-      *[Disadvantages](#disadvantages)
-      *[Steps](#steps-2)
 3.  ## Random Forest
-      * [Description](#description-3)
-      * [Advantages](#advantages)
-      * [Steps](#steps-3)
 ### Description 1
 Binary Logistic Regression is a type of classification Machine Learning algorithm used to determine the impact of multiple independent variables presented to predict a categorical variable(two outcomes) or he likelihood of an event/scenario.
 Some of the examples of binary outcome cases include:
